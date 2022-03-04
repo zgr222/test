@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container {
+    margin: 100px auto;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+ul {
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.banner li {
+    background-color: yellow;
+    width: 500px;
+    height: 300px;
+}
+.banner li:nth-of-type(2) {
+    background: yellowgreen;
+}
+.banner li:nth-of-type(3) {
+    background: orange;
+}
